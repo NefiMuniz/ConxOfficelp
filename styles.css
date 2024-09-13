@@ -1,0 +1,205 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E8E0C8;
+    color: #213943;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Fiona', serif;
+    color: #364E90;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #364E90;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.header .logo img {
+    height: 60px;
+}
+
+.header .social-links a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .social-links a:hover {
+    color: #EB5535;
+}
+
+/* Seção Empresa */
+.empresa {
+    background-color: #E8E0C8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.empresa h1 {
+    font-size: 36px;
+}
+
+.empresa p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Seção Time */
+.team {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-members .member {
+    text-align: center;
+}
+
+.team-members img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+/* Seção Serviços */
+.services {
+    background-color: #E8E0C8;
+    padding: 40px 0;
+}
+
+.services .service-block {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.services button {
+    background-color: #364E90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.services button:hover {
+    background-color: #EB5535;
+}
+
+/* Seção Depoimentos */
+.testimonials {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.testimonials .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials span {
+    font-style: italic;
+    color: #E1612E;
+}
+
+/* Formulários de Contato */
+.contact {
+    background-color: #E8E0C8;
+    padding: 40px 0;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #364E90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact button:hover {
+    background-color: #EB5535;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #213943;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-links a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer .social-links a:hover {
+    color: #EB5535;
+}
+
+/* Botão fixo do WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-float img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
